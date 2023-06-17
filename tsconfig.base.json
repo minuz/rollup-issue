@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@rollup-issue/is-even": ["packages/shared/util/is-even/src/index.ts"],
+      "@rollup-issue/is-odd": ["packages/shared/util/is-odd/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
